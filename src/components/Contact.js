@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './components/contact.css';
+import './contact.css';
 
 
 class Contact extends React.Component {
