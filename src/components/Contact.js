@@ -43,9 +43,9 @@ class Contact extends React.Component {
     } else {
       return (
         <div className="Contact" >
-          <img className="avatar" src={items.picture.thumbnail}/>
+          <img className="avatar" src="https://randomuser.me/api/portraits/thumb/men/99.jpg" alt="user avatar"/>
           <div>
-            <div className="name">{items.name.map(item => (`${item.title},${item.first},${item.last}`))}</div>
+            <div className="name">xXx-JeanMichelPasContent-xXx</div>
             <div className="status">
               <div className="status-online"></div>
               <div className="status-text">Online</div>
